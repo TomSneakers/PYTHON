@@ -14,7 +14,7 @@ while True:
     elif tirage2 > tirage1:
         score_joueur2 += 1
 
-    # Chaque joueur tire 5 fois
+    # Chaque joueur tire 5 foi
     tirages1 = [random.randint(1, 6) for _ in range(5)]
     tirages2 = [random.randint(1, 6) for _ in range(5)]
 
